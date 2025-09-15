@@ -1,34 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+/* Adjunto el archivo con el componente que deben corregir:
 
+Deben enviar un repositorio, que utilice Vite, React, MUI y Storybook.,
+Deben realizarlo en TypeScript.,
+Deben crear STORIES de Storybook. Como recomendación creen historias de como se ve el componente en distintos tipos de tamaños o contendores, y si modifican el componente para recibir alguna prop particular, una Story para dicha prop también. Es decir generen los casos de usos que consideren necesarios.,
+ */
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <h1>Storybook</h1>
+    </div>
   )
 }
 
